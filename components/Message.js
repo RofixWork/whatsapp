@@ -45,7 +45,7 @@ const Message = ({ user, message, photoURL, timestamp }) => {
             <Box component="span" sx={{ display: "block", fontSize: "12px" }}>
               {timestamp
                 ? moment(timestamp?.toDate()?.getTime()).format("LT")
-                : "..."}
+                : "... "}
             </Box>
           </Box>
         </Box>

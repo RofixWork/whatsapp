@@ -188,7 +188,7 @@ export default ChatScreen;
 
 const Container = styled.div`
   margin-left: 280px;
-  min-height: 100vh;
+  height: 100vh;
   display: grid;
   grid-template-rows: 58px 1fr 50px;
 `;
